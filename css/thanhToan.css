@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+a {
+    text-decoration: none;
+    color: rgb(108, 173, 233);
+}
+
+.tong-thanh-toan {
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.item-thong-tin {
+    width: 55%;
+}
+
+.item-mac-hang {
+    width: 45%;
+    background-color: rgb(253, 252, 252);
+    border: 0.5px solid rgb(241, 241, 241);
+}
+
+.thong-tin {
+    width: 550px;
+    margin: 40px auto 0 auto;
+}
+
+.thong-tin>p {
+    font-size: 30px;
+}
+
+.ghi-chu {
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+
+.dhi-chu>a {
+    margin: 0 5px 0 0;
+    font-size: 10px;
+}
+
+p {
+    margin: 0px;
+}
+
+.nhap-thong-tin>p {
+    font-size: 20px;
+    margin: 0 0 25px 0;
+}
+
+.dang-nhap {
+    display: flex;
+    margin: 0 0 5px 0;
+}
+
+.dang-nhap>p {
+    font-size: 17px;
+    color: rgb(107, 107, 107);
+}
+
+.item-ten>input {
+    width: 559px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1.25px solid rgb(131, 130, 130);
+    padding-left: 15px;
+}
+
+.item-lien-he {
+    display: flex;
+}
+
+.email>input {
+    width: 360px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1.25px solid rgb(131, 130, 130);
+    margin: 0 5px 0 0;
+    padding-left: 15px;
+}
+
+.sdt>input {
+    width: 172px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1.25px solid rgb(131, 130, 130);
+    padding-left: 15px;
+}
+
+.item-dia-chi>input {
+    width: 559px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1.25px solid rgb(131, 130, 130);
+    padding-left: 15px;
+}
+
+input {
+    margin: 0 0 13px 0;
+}
+
+.tong-tinh-thanh {
+    display: flex;
+}
+
+select {
+    width: 190px;
+    height: 45px;
+    margin: 0 5px 0 0;
+    border-radius: 6px;
+}
+
+
+/* phương thức vận chuyển */
+
+.phuong-thuc-vc>p {
+    font-size: 18px;
+    margin: 25px 0 20px 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.item-vc {
+    width: 575px;
+    height: 200px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 10px;
+}
+
+.vc>img {
+    width: 110px;
+    height: 85px;
+}
+
+.vc>p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.vc {
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
+
+/* phương thức tanh toán */
+
+.phuong-thuc-tt>p {
+    font-size: 18px;
+    margin: 25px 0 20px 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.tt-mot {
+    width: 575px;
+    height: 80px;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 6px;
+    display: flex;
+    /* canh giữa theo chiều dọc */
+    align-items: center;
+}
+
+.nut-tt {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 50%;
+    margin: 0 12px 0 20px;
+}
+
+.tt-mot>img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nut-tt:hover {
+    background-color: rgb(125, 126, 126);
+}
+
+.sale {
+    width: 170px;
+    height: 50px;
+    border: 0.5px solid rgb(209, 209, 209);
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px rgb(214, 214, 214);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grap {
+    margin: 0 0 0 10px;
+}
+
+.grap>a {
+    font-size: 13px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+}
+
+.grap>p {
+    font-size: 10px;
+    color: rgb(150, 149, 149);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.anh-sale {
+    text-align: right;
+    margin-right: 5px;
+    align-items: center;
+}
+
+.anh-sale>.anh-grap {
+    width: 55px;
+    height: 20px;
+}
+
+.anh-sale>.anh-cham-thang {
+    width: 20px;
+    height: 20px;
+}
+
+.ht_hang {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0 0;
+    height: 100px;
+    align-items: center;
+    width: 575px;
+}
+
+.ht_hang>div {
+    background-color: rgb(51, 141, 188);
+    color: white;
+    width: 165px;
+    height: 58px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.ht_hang>div>p {
+    margin: 0 auto;
+}
+
+
+/* thanh toán mặc hàng */
+
+.sp {
+    display: flex;
+    width: 420px;
+    height: 85px;
+    margin: 30px 0 0 43px;
+    border-bottom: 0.5px solid rgb(234, 234, 234);
+}
+
+.item_img {
+    width: 65px;
+    height: 65px;
+    border: 0.3px solid rgb(182, 182, 182);
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px 10px 0 0;
+}
+
+.item_img>img {
+    width: 70%;
+    height: auto;
+}
+
+.thongTin_sp {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+}
+
+.db {
+    color: rgb(98, 90, 97);
+    font-family: 'Roboto', sans-serif;
+}
+
+.db2 {
+    color: rgb(162, 162, 162);
+    font-family: 'Roboto', sans-serif;
+}
+
+.gia_tien {
+    margin: 0 0 0 43px;
+}
+
+.ma_gg {
+    width: 420px;
+    height: 82px;
+    margin: 0 0 0 43px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(234, 234, 234);
+}
+
+.ma_gg>input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0px 10px 0 0;
+}
+
+.ma_gg>button {
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(200, 200, 200);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gia_tien {
+    width: 420px;
+    height: 95px;
+    border-bottom: 0.5px solid rgb(234, 234, 234);
+}
+
+.tam_tinh {
+    margin: 30px 0 0 0;
+}
+
+.phi_vt {
+    margin: 20px 0 0 0;
+}
+
+.item_giaTien {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_giaTien>p {
+    color: rgb(127, 114, 114);
+}
+
+.tong_cong {
+    display: flex;
+    margin: 20px 0 0 43px;
+    justify-content: space-between;
+}
+
+.item_tongCong {
+    display: flex;
+    width: 50%;
+}
+
+.db_tongCong {
+    margin: 0 5px 0 0;
+}

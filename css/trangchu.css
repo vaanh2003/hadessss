@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    width: 95%;
+    margin: 0px auto 20px auto;
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav img {
+    width: 130px;
+}
+
+.menu {
+    width: 100%;
+}
+
+.tong {
+    width: 100%;
+}
+
+.li_menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    width: 95%;
+}
+
+.li_menu>img {
+    display: none;
+}
+
+.menu_left {
+    display: flex;
+}
+
+.item_menu {
+    margin-right: 23px;
+    color: rgb(79, 78, 78);
+    font-size: 9px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+}
+
+.item_menu:hover {
+    color: rgb(174, 173, 173);
+}
+
+.menu_right {
+    display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+    nav {
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    .tong {
+        width: 100%;
+    }
+    .menu {
+        width: 50px;
+    }
+    .li_menu {
+        padding: 0 0 0 10px;
+        position: relative;
+        width: 23px;
+    }
+    .li_menu>ul {
+        display: none;
+    }
+    .li_menu>img {
+        display: block;
+        width: 23px;
+        height: 20px;
+    }
+    .menu_left {
+        position: absolute;
+        display: inline-flex;
+        margin-right: 45px;
+        top: -10px;
+        left: -150px;
+        padding-top: 50px;
+    }
+    .item_menu {
+        background-color: white;
+        padding: 10px 100px 10px 20px;
+        border-bottom: 0.25px solid rgb(238, 236, 236);
+        border-top: 0.25px solid rgb(231, 230, 230);
+    }
+    .item_menu1 {
+        border: none;
+    }
+    .item_menu {
+        margin-right: 23px;
+        color: rgb(79, 78, 78);
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 550;
+    }
+    .item_menu:hover {
+        color: rgb(174, 173, 173);
+    }
+    .menu_right {
+        display: flex;
+    }
+    .li_menu:hover>.menu_left {
+        display: block;
+    }
+    .item_hinhanh>a {
+        width: 100%;
+    }
+}
+
+
+/* đây đây là phần hình ảnh header */
+
+header {
+    width: 100%;
+}
+
+header>img {
+    width: 100%;
+}
+
+.item_hinhanh {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.item_hinhanh>a {
+    width: 33.3%;
+    padding: 0 7px 0 7px;
+}
+
+.item_anh {
+    width: 100%;
+}
+
+.item_hinhanh2 {
+    width: 100%;
+}
+
+.item_hinhanh2>a>img {
+    width: 100%;
+}
+
+
+/* đây là phần sảng phẩm */
+
+article {
+    width: 100%;
+}
+
+.machang {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.column {
+    text-align: center;
+    width: 25%;
+}
+
+.san-pham>a>img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .column {
+        text-align: center;
+        width: 33.3%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        text-align: center;
+        width: 50%;
+    }
+}
+
+
+/* đây là forter của trang web */
+
+
+/*thông tinh lịch sử shop*/
+
+.tong-thong-tin {
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.thon-tin1>p {
+    color: aliceblue;
+}
+
+.thon-tin1>h3>a {
+    color: aliceblue;
+}
+
+.thon-tin1>a {
+    color: aliceblue;
+}
+
+.thon-tin {
+    display: flex;
+    width: 95%;
+    margin: 70px auto 0 auto;
+    justify-content: space-evenly;
+}
+
+.thon-tin1 {
+    margin-left: 50px;
+    margin-right: 30px;
+    width: 500px;
+    text-align: left;
+}
+
+.thon-tin .nhat {
+    color: rgb(104, 101, 101);
+}
+
+@media screen and (max-width: 1000px) {
+    .thon-tin {
+        display: block;
+        width: 95%;
+        margin: 70px auto 0 auto;
+        justify-content: space-evenly;
+    }
+}
+
+
+/*thông tin liên hệ cửa hàng*/
+
+.lien-he {
+    display: flex;
+    margin-left: 73px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.lien-he .cua-hang .item-tieu-de>p {
+    font-size: 13px;
+    color: rgb(66, 65, 65);
+    line-height: 1.8;
+}
+
+.tieu-de {
+    margin-bottom: 30px;
+}
+
+.icon1>a>img {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-hai>a>img {
+    width: 200px;
+}
+
+.icon-tong {
+    width: 100%;
+}
+
+.item-icon {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .lien-he {
+        display: block;
+        margin: 0 auto 20px auto;
+        justify-content: space-between;
+        margin-right: 10px;
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+}

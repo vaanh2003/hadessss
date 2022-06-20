@@ -1,0 +1,431 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    width: 95%;
+    margin: 0px auto 20px auto;
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav img {
+    width: 130px;
+}
+
+.menu {
+    width: 100%;
+}
+
+.tong {
+    width: 100%;
+}
+
+.li_menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    width: 95%;
+}
+
+.li_menu>img {
+    display: none;
+}
+
+.menu_left {
+    display: flex;
+}
+
+.item_menu {
+    margin-right: 23px;
+    color: rgb(79, 78, 78);
+    font-size: 9px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+}
+
+.item_menu:hover {
+    color: rgb(174, 173, 173);
+}
+
+.menu_right {
+    display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+    nav {
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    .tong {
+        width: 100%;
+    }
+    .menu {
+        width: 50px;
+    }
+    .li_menu {
+        padding: 0 0 0 10px;
+        position: relative;
+        width: 23px;
+    }
+    .li_menu>ul {
+        display: none;
+    }
+    .li_menu>img {
+        display: block;
+        width: 23px;
+        height: 20px;
+    }
+    .menu_left {
+        position: absolute;
+        display: inline-flex;
+        margin-right: 45px;
+        top: -10px;
+        left: -150px;
+        padding-top: 50px;
+    }
+    .item_menu {
+        background-color: white;
+        padding: 10px 100px 10px 20px;
+        border-bottom: 0.25px solid rgb(238, 236, 236);
+        border-top: 0.25px solid rgb(231, 230, 230);
+    }
+    .item_menu1 {
+        border: none;
+    }
+    .item_menu {
+        margin-right: 23px;
+        color: rgb(79, 78, 78);
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 550;
+    }
+    .item_menu:hover {
+        color: rgb(174, 173, 173);
+    }
+    .menu_right {
+        display: flex;
+    }
+    .li_menu:hover>.menu_left {
+        display: block;
+    }
+    .item_hinhanh>a {
+        width: 100%;
+    }
+}
+
+
+/* đây đây là phần header */
+
+header {
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(251, 251, 251);
+}
+
+.gach {
+    margin: 0 5px 0 5px;
+}
+
+.item_header {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.item_header>a {
+    color: rgb(61, 61, 61);
+}
+
+
+/* đây là phần sảng phẩm trong giỏ hàng */
+
+article {
+    width: 100%;
+    margin: 100px 0 0 0;
+    height: 1300px;
+}
+
+.chusp {
+    width: 100%;
+    text-align: center;
+}
+
+.chusp>p {
+    font-size: 25px;
+    margin: 0 0 20px 0;
+}
+
+.item_section {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.gioHang {
+    width: 75%;
+    height: 800px;
+}
+
+.item_gioHang {
+    width: 95%;
+    height: 720px;
+    margin: 0 auto;
+    background-color: rgb(248, 248, 248);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.thanhToan {
+    margin-top: 30px;
+    width: 25%;
+}
+
+.sp {
+    width: 97%;
+    margin: 0 auto;
+    height: 90px;
+    display: flex;
+    margin: 20px 0 0 0;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sp>img {
+    width: 10%;
+    height: 100%;
+}
+
+.tien>a>img {
+    width: 20px;
+}
+
+.tien {
+    text-align: center;
+}
+
+.item_soLuong {
+    display: flex;
+    align-items: center;
+}
+
+.item_soLuong>button {
+    width: 20px;
+    height: 20px;
+    border: 0px;
+}
+
+.item_soLuong>p {
+    width: 20px;
+    height: 18px;
+    text-align: center;
+    border-top: 0.001px solid rgb(233, 232, 232);
+    border-bottom: 0.001px solid rgb(231, 231, 231);
+}
+
+.item_ghiChu {
+    width: 85%;
+    height: 300px;
+    margin: 70px auto 0 auto;
+    display: flex;
+}
+
+.ghiChu {
+    margin-right: 20px;
+}
+
+.doiCha>p {
+    margin-bottom: 7px;
+    font-size: 15px;
+    width: 300px;
+}
+
+
+/* phần thanh toán */
+
+.item_thanhToan {
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.item_text {
+    text-align: right;
+}
+
+.item_thanhToan>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tthanhToan {
+    width: 100%;
+    border: 0.3px solid rgb(212, 212, 212);
+}
+
+.item_thanhToan>a>button {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 40px;
+}
+
+.item_thanhToan>h3 {
+    margin: 20px 0 20px 0;
+}
+
+.item_thanhToan>div {
+    margin: 20px 0 20px 0;
+}
+
+.item_thanhToan>p {
+    margin: 20px 0 20px 0;
+}
+
+@media screen and (max-width: 1000px) {
+    article {
+        height: auto;
+    }
+    .gioHang {
+        height: 790px;
+        width: 100%;
+    }
+    .thanhToan {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .item_section {
+        display: block;
+        width: 90%;
+    }
+    .sp>img {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .item_ghiChu {
+        display: block;
+    }
+    .ghiChu {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .doiCha {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+
+/* cóp thể bạn sẽ thích */
+
+.ban_thich {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    height: 300px;
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+
+.item_bt {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.column {
+    width: 25%;
+}
+
+.column>.san-pham>a>img {
+    width: 100%;
+}
+
+.co_the {
+    font-size: 50px;
+}
+
+.ten {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+
+/*thông tin liên hệ cửa hàng*/
+
+footer {
+    margin-top: 10px;
+}
+
+.lien-he {
+    display: flex;
+    margin-left: 73px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.lien-he .cua-hang .item-tieu-de>p {
+    font-size: 13px;
+    color: rgb(66, 65, 65);
+    line-height: 1.8;
+}
+
+.tieu-de {
+    margin-bottom: 30px;
+}
+
+.icon1>a>img {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-hai>a>img {
+    width: 200px;
+}
+
+.icon-tong {
+    width: 100%;
+}
+
+.item-icon {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .lien-he {
+        display: block;
+        margin: 0 auto 20px auto;
+        justify-content: space-between;
+        margin-right: 10px;
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+}
